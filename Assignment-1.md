@@ -1,4 +1,4 @@
-As for all assignments, we provide you the [build.xml](code/ass1/build.xml) for ant. 
+As for all assignments, we provide you the [build.xml](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/ass1/build.xml) for ant. 
 
 ## Java for C programmers
 
