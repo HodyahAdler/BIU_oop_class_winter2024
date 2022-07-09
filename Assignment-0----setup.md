@@ -1,10 +1,8 @@
 # Setup Assignment
 
 The goal of this assignment is to get you through the technical requirements of the assignments of this course.
-You will not be graded for this assignment. However, we strongly suggest you submit it, to verify that 
+You will not be graded for this assignment. However, we strongly suggest you do it, to verify that 
 you have all prerequisite ready and you understand all submission instructions before you get into "real" assignments.  
-
-Assignments should be submitted through the [Submission System](http://submit.cs.biu.ac.il).
 
 
 ## Working Environment Guide
