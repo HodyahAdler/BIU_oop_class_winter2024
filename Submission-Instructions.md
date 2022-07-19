@@ -106,4 +106,4 @@ ant -Dargs="10 arg2 3” run
 
 Assuming we had assignment number 99, with two task: in task 1 your program was requested to print "Hello Task1", 
 and in task 2 your program was requested to print "Hello Task2". 
-Then the following file is a valid submission: [ass99.zip](ass99.zip)
+Then the following file is a valid submission: [ass99.zip](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/ass99.zip)
