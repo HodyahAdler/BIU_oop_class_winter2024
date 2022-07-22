@@ -10,7 +10,7 @@ This is because our primary concern for this code is to be short, concise, and t
 
 ### Automatic code style checking with Checkstyle
 
-In order to verify that your code follows the coding style, you can use the `checkstyle` software, with the [configuration](data/checkstyle/biuoop.xml) we provide.
+In order to verify that your code follows the coding style, you can use the `checkstyle` software, with the [configuration](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/biuoop.xml) we provide.
 You can learn more about the checkstyle project [here](http://checkstyle.sourceforge.net/).
 
 We will run automatic checktyle on all the code you submit. 
@@ -32,7 +32,7 @@ the checkstyle test with NO errors.
 
 Download the files:
 * [checkstyle-8.44-all.jar](data/checkstyle/checkstyle-8.44-all.jar) 
-* [biuoop.xml](data/checkstyle/biuoop.xml)
+* [biuoop.xml](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/biuoop.xml)
 
 The first file is the checkstyle software, the second is the configuration file we provide, specifying the coding convention we require.
 You can have a look at the content of `biuoop.xml` if you are interested.
