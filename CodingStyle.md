@@ -31,7 +31,7 @@ the checkstyle test with NO errors.
 ### Using Checkstyle
 
 Download the files:
-* [checkstyle-8.44-all.jar](data/checkstyle/checkstyle-8.44-all.jar) 
+* [checkstyle-8.44-all.jar](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/checkstyle-8.44-all.jar) 
 * [biuoop.xml](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/biuoop.xml)
 
 The first file is the checkstyle software, the second is the configuration file we provide, specifying the coding convention we require.
@@ -53,7 +53,7 @@ The `...` at the end indicate that you can add any number of java files. You can
 This small exercise will help you make sure you get checkstyle to work:
 
 * Download `checkstyle-8.44-all.jar` and `biuoop.xml` from above.
-* Download the following code file [FailingCheckstyleCode.java](data/checkstyle/FailingCheckstyleCode.java)
+* Download the following code file [FailingCheckstyleCode.java](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/FailingCheckstyleCode.java)
 
 Run the following command
 ```bash
