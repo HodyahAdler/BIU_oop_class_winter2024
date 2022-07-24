@@ -177,7 +177,7 @@ For further details, see [the documentation for the biuoop package](https://u.cs
 
 Your goal is to use the GUI class to generate random pictures like the following:
 
-![lines intersection](images/lines_intersections.png)
+![lines intersection](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/ass2/lines_intersections.png)
 
 In this image, we have 10 lines, drawn in black. The middle point in each line is indicated in blue,
 while the intersection points between the lines are indicated in red (the points are filled circles
@@ -384,7 +384,7 @@ As before, this program is invoked from the commandline, and each argument is a 
 
   
   Your window should look something like this:
-  ![multipleFrame](images/MultipleFramesBouncingBall.PNG)
+  ![multipleFrame](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/ass2/MultipleFramesBouncingBall.png)
 
 
 (As before, the number of balls is not fixed, but you can assume an even number of balls. We note that it is a much better practice to somehow handle also the case of a non-even number of balls.)
