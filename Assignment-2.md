@@ -5,6 +5,12 @@ In this assignment you will start working with **Objects**. You will define **Cl
 First, please read about working with multiple classes: [[MultFiles]]. (You can ignore the mentioned `biuoop-1.4.jar` for now, we will explain about it in [Part 2](#part-2-gui-and-abstract-art).).
 
 We supply this [build.xml](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/ass2/build.xml) for the assignment.
+Recommendation: read the entire assignment before you start writing it.
+
+## important note befor you start
+In this course, your plan should simply just work. Just like real programmers, you need to think about the special cases that can happen in reality - the rule is that nothing should cause your program to crash. Think about how you deal with cases like this on your own.
+
+In situations where no behavior has been defined, you have to think about what you would expect to happen if it was an application on your cell-phone. As long as this is reasonable behavior given the instructions and is logical, it will be accepted. (Just like in the real world..)
 
 ## Part 1: Geometry
 
@@ -198,6 +204,14 @@ If your intersection points are not correct, you may want to debug the Line clas
 For this task, you should include all the relevant classes. The `run2` target in the `build.xml` would run the drawing code, which should reside in a class called `AbstractArtDrawing`.
 
 (all tasks, including this one, will be submitted in the same zip file)
+In the final submission, you should have 10 lines and the screen size will be the same as the size defined in the task.
+
+### Special cases and notes
+* In the case of straight lines with infinite intersection points (including cases of inclusion)return null must in 'intersectionWith' method and true in 'isIntersecting' method
+* An intersection point at the end points of a line are considered intersection points
+* The order of the points does not matter, i.e. straight lines are the same even if the end point of one is the start point of the other and vice versa
+* Some of the methods refer to int and some to double. This happens because conceptually, the points are infinite. In reality, we are limited by the accuracy of our screen. Think about how to deal with it. Do not change the signatures of the methods.
+* Conceptually, numbers are infinite. In practice, the numbers on the computer are limited, even double. This creates a situation where you won't detect a collision because one value came out to you as 4.9999... and the other 5. The accepted solution for such situations is a threshold. You can read more about it on Google.
 
 ## Part 3: Animation and Bouncing Balls
 
@@ -389,6 +403,11 @@ As before, this program is invoked from the commandline, and each argument is a 
 
 (As before, the number of balls is not fixed, but you can assume an even number of balls. We note that it is a much better practice to somehow handle also the case of a non-even number of balls.)
   
+###  Special cases and notes
+* Bullets in the yellow frame cannot collide with bullets in the gray frame - the yellow frame will simply hide them.
+* Think about how to deal with points that are not in the normal range - any reasonable reasonable behavior will be accepted.
+* like in part 2, you need use threshold if you have a situation similar to what was described before.
+
 
 ## A note on checkstyle
 
@@ -420,11 +439,16 @@ Remember you can specify command line arguments like this:
 
 You do not need to include the file biuoop.jar, and can assume it is available in the same directory as `build.xml`.
 
+**Make sure you submit the assignment according to the submission instructions. **
+**Run the task on the university's servers (for example, with Mobox) and on the CMD and make sure that it runs with the runing command outside your workspace with the folder you're actually submit. **
+
 ## Several End Notes
 
 * Open your mind - in this assignment (and other to come), we provide you with some classes and methods which are **obligatory** in your implementation; but it is very likely that you need to implement other classes and methods to make the job right. Good design is a key to your success in the course assignments.
 * You are welcome to search the web for technical issues, mathematical or programming questions, and pretty much everything. Use it. Google would be your mentor for all your professional life. (The only think you can't do is copy code from published solutions, but you can re-write same ideas in your own code).
 * As (almost) all the following assignments will be built on top of this one (especially the `Line` and `Ball` classes), it is important you test them as much as you can. You'll get feedback on the assignment, but a 100 score does **not** guarantee that you don't have bugs, which you might only be aware of during the following assignments.    
 * You are not allowed to use the `java.awt.geom.Line2D` class.
+
+
 
 Good Luck!
