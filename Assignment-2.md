@@ -4,7 +4,7 @@ In this assignment you will start working with **Objects**. You will define **Cl
 
 First, please read about working with multiple classes: [[MultFiles]]. (You can ignore the mentioned `biuoop-1.4.jar` for now, we will explain about it in [Part 2](#part-2-gui-and-abstract-art).).
 
-We supply this [build.xml](code/ass2/build.xml) for the assignment.
+We supply this [build.xml](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/ass2/build.xml) for the assignment.
 
 ## Part 1: Geometry
 
@@ -82,7 +82,7 @@ The `intersectionWith(Line other)` method is a bit complicated.
 You can find some hints about how to calculate the intersection between two line segments [here](http://www.mathopenref.com/coordintersection.html).
 
 ### Testing your code
-You can perform some sanity-checks for your code using our provided [GeometryTester](code/ass2/GeometryTester.java) class.
+You can perform some sanity-checks for your code using our provided [GeometryTester](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/ass2/GeometryTester.java) class.
 
 ### What to submit?
 
@@ -134,7 +134,7 @@ as well as classes from the `java.util` and `java.awt` packages
 which are part of the java runtime environment (and are always available).
 
 The `GUI`, `DrawSurface` and `Sleeper` classes belong to the `biuoop` package, 
-which are defined in the [biuoop-1.4.jar](code/biuoop-1.4.jar) file. In order to use this code, 
+which are defined in the [biuoop-1.4.jar](https://github.com/HodyahAdler/-BIUoop2022summer/blob/main/biuoop-1.4.jar) file. In order to use this code, 
 java needs to know where to look for it. 
 After you download the `biuoop-1.4.jar` file and put it in the directory of the assignment (**not** in the `src`),
 Compile and run the code using:
