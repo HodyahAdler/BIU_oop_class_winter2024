@@ -7,7 +7,7 @@ The interface for a Map allows you to:
 * check if a key exists in the map
 * get the value associated with a specific key.
 
-In the Java collections library, the `[Map](http://docs.oracle.com/javase/7/docs/api/java/util/Map.html)` interface represents a mapping, and it has several implementations, among them "HashMap" and "TreeMap" (the first is implemented using a hash-based data structure, and the second is implemented using a tree-based data structure).
+In the Java collections library, the [Map](http://docs.oracle.com/javase/7/docs/api/java/util/Map.html) interface represents a mapping, and it has several implementations, among them "HashMap" and "TreeMap" (the first is implemented using a hash-based data structure, and the second is implemented using a tree-based data structure).
 
 You create and use a mapping as follows:
 ```java
