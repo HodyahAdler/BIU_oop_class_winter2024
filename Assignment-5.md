@@ -147,12 +147,12 @@ SpriteCollection and GameEnvironment classes)
 ```
 
 ### Simple test
-In order to see if our listener is working, lets implement a simple HitListener that prints a message to the screen whenever a block is hit.
+In order to see if our listener is working, lets implement a simple HitListener that prints a message to the screen whenever a block is hit. (not need submit)
 
 ```java
 public class PrintingHitListener implements HitListener {
    public void hitEvent(Block beingHit, Ball hitter) {
-      System.out.println("A Block was hit.");
+      System.out.println("A Block was hit."); 
    }
 }
 ```
@@ -172,7 +172,7 @@ public class BlockRemover implements HitListener {
    private Game game;
    private Counter remainingBlocks;
 
-   public BlockRemover(Game game, Counter removedBlocks) { ... }
+   public BlockRemover(Game game, Counter remainingBlocks) { ... }
 
    // Blocks that are hit should be removed
    // from the game. Remember to remove this listener from the block
