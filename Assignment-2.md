@@ -463,7 +463,7 @@ You do not need to include the file biuoop.jar, and can assume it is available i
 * You are welcome to search the web for technical issues, mathematical or programming questions, and pretty much everything. Use it. Google would be your mentor for all your professional life. (The only think you can't do is copy code from published solutions, but you can re-write same ideas in your own code).
 * As (almost) all the following assignments will be built on top of this one (especially the `Line` and `Ball` classes), it is important you test them as much as you can. You'll get feedback on the assignment, but a 100 score does **not** guarantee that you don't have bugs, which you might only be aware of during the following assignments.    
 * You are not allowed to use the `java.awt.geom.Line2D` class.
-
+* Think which cases can be problematic in your code and how you deal with them
 
 
 Good Luck!
