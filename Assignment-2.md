@@ -10,7 +10,11 @@ Recommendation: read the entire assignment before you start writing it.
 ## important note befor you start
 In this course, your plan should simply just work. Just like real programmers, you need to think about the special cases that can happen in reality - the rule is that nothing should cause your program to crash. Think about how you deal with cases like this on your own.
 
-In situations where no behavior has been defined, you have to think about what you would expect to happen if it was an application on your cell-phone. As long as this is reasonable behavior given the instructions and is logical, it will be accepted. (Just like in the real world..)
+Open your mind - in this assignment (and other to come), we provide you with some classes and methods which are **obligatory** in your implementation; but it is very likely that you need to implement other classes and methods to make the job right. Good design is a key to your success in the course assignments.
+
+Signatures of methods must not be changed! 
+
+Don't forget JAVADOC
 
 ## Part 1: Geometry
 
@@ -95,6 +99,16 @@ You can perform some sanity-checks for your code using our provided [GeometryTes
 For this part, you need to submit the code for the `Point` and `Line` classes (and any additional classes you may write).
 
 Note that no `run` target in the `build.xml` correspond to this task.
+
+### special case and importent issues
+
+* If there are infinite intersection points (including cases of inclusion):
+   'intersectionWith' function will return null
+   'isIntersecting' function will return true
+
+* Lines are defined as equal if in reality they would be exactly the same line - that is, even if the end of one is equal to the beginning of the other and vice versa.
+
+* As you learned in the introduction to computer science, the numbers on the computer are limited in number of bits, so they are not completely accurate. Therefore, it is common to compare double using a threshold. you can read more about it in google. 
 
 ## Part 2: GUI and Abstract Art
 
