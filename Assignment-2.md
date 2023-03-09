@@ -226,6 +226,7 @@ In the final submission, you should have 10 lines and the screen size will be th
 * The order of the points does not matter, i.e. straight lines are the same even if the end point of one is the start point of the other and vice versa
 * Some of the methods refer to int and some to double. This happens because conceptually, the points are infinite. In reality, we are limited by the accuracy of our screen. Think about how to deal with it. Do not change the signatures of the methods.
 * Conceptually, numbers are infinite. In practice, the numbers on the computer are limited, even double. This creates a situation where you won't detect a collision because one value came out to you as 4.9999... and the other 5. The accepted solution for such situations is a threshold. You can read more about it on Google.
+* in your submit code, you need draw 10 line
 
 ## Part 3: Animation and Bouncing Balls
 
