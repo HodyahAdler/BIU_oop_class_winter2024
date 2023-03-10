@@ -9,7 +9,7 @@ Assume we are dealing with an environment that could only store integers within 
 
 For example, the invocation of your program should look like this:
 
-`> java ReverseNumber 5678
+`> java ReverseNumber 5678\n
 reverse number: 8765`
 
 or with Ant
