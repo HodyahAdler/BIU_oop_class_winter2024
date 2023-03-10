@@ -46,7 +46,7 @@ reverse number: 8765
 or with Ant
 
 ```
-> ant run1 -Dargs="5678"
+> ant run2 -Dargs="5678"
 reverse number: 8765
 ```
 
@@ -93,9 +93,9 @@ the triplet is: [-9, -3, 12]
 or with Ant
 
 ```
-> ant run2 -Dargs="asc 12 2 -3 -9 8"
+> ant run4 -Dargs="asc 12 2 -3 -9 8"
 the triplet is: [12, -3, -9]
-> ant run2 -Dargs="desc 12 2 -3 -9 8"
+> ant run4 -Dargs="desc 12 2 -3 -9 8"
 the triplet is: [-9, -3, 12]
 ```
 
