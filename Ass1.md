@@ -58,7 +58,7 @@ Your main(String[] args) method will read the input number from the args array a
 
 and print the results.
 
-# Task 3: Array place
+# Task 3: Array
 Write a program called PlaceInArray that get array of integers nums sorted in non-decreasing order, and find the starting and ending position of a given target value. If target is not found in the array, return [-1, -1].
 
 
@@ -78,7 +78,7 @@ Your main(String[] args) method will read the input number from the args array a
 
 `public static int placeInArray(int n);`
 
-# Task 4: Arrays
+# Task 4: Triplet
 Write a program called tripletOfZero that gets a list of numbers in the commandline, and prints the triplet [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
 
 If no such triplet exists, return -1. your output array need to be order by the user input:
