@@ -2,8 +2,37 @@ As for all assignments, we provide you the [build.xml](https://github.com/Hodyah
 
 Java for C programmers
 In this assignment you will write a few simple java programs in a procedural (not Object Oriented) style. The purpose of this assignment is to refresh your memory on the Intro to CS course material, and get you up to speed with the basic java syntax. For each task, you can assume that the argument is correct.
+# Task 1: pow
+Given integer numbers x and n, calculates x raised to the power n.
+Your code should reside in a file named Pow.java. The program will read a numbers x, n from the commandline, and will then calculate x^n twice, once using a recursive definition, and once using an iterative procedure, and print out the result.
 
-Task 1: reverse number
+For example, invocation of your program should look like this:
+'''
+> java Pow 6 2
+recursive: 36
+iterative: 36
+'''
+or with Ant
+
+'''
+> ant run1 -Dargs="6 2"
+recursive: 36
+iterative: 36
+'''
+(lines starting with > are what you write to the shell, other lines are expected output).
+
+Your main(String[] args) method will read the input numbers from the args array and convert it from a string to an integer. It will then call the two methods:
+'''
+public static long powRecursive(long n);
+public static long powlIter(long n);
+'''
+
+and print the results.
+Note: you can convert a string to an integer using the following code:
+
+`int n = Integer.parseInt("123");`
+
+# Task 2: reverse number
 Given a 32-bit signed integer, reverse digits of an integer.
 Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [−231, 231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
@@ -23,17 +52,13 @@ reverse number: 8765
 
 (lines starting with > are what you write to the shell, other lines are expected output).
 
-Your main(String[] args) method will read the input number from the args array and convert it from a string to an integer. It will then call the two methods:
+Your main(String[] args) method will read the input number from the args array and convert it from a string to an integer. It will then call the methods:
 
 `public static int reverseNum(int n);`
 
 and print the results.
 
-Note: you can convert a string to an integer using the following code:
-
-`int n = Integer.parseInt("123");`
-
-Task 2: Array place
+# Task 3: Array place
 Write a program called PlaceInArray that get array of integers nums sorted in non-decreasing order, and find the starting and ending position of a given target value. If target is not found in the array, return [-1, -1].
 
 
@@ -49,8 +74,11 @@ or with ant:
 5 start in 3 and end in 3
 ```
 
+Your main(String[] args) method will read the input number from the args array and convert it from a string to an integer. It will then call the methods:
 
-Task 3: Arrays
+`public static int placeInArray(int n);`
+
+# Task 4: Arrays
 Write a program called tripletOfZero that gets a list of numbers in the commandline, and prints the triplet [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
 
 If no such triplet exists, return -1. your output array need to be order by the user input:
