@@ -9,13 +9,17 @@ Assume we are dealing with an environment that could only store integers within 
 
 For example, the invocation of your program should look like this:
 
-```> java ReverseNumber 5678
-reverse number: 8765```
+```
+> java ReverseNumber 5678
+reverse number: 8765
+```
 
 or with Ant
 
-```> ant run1 -Dargs="5678"
-reverse number: 8765```
+```
+> ant run1 -Dargs="5678"
+reverse number: 8765
+```
 
 (lines starting with > are what you write to the shell, other lines are expected output).
 
