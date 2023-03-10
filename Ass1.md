@@ -7,14 +7,18 @@ Given integer numbers x and n, calculates x raised to the power n.
 Your code should reside in a file named Pow.java. The program will read a numbers x, n from the commandline, and will then calculate x^n twice, once using a recursive definition, and once using an iterative procedure, and print out the result.
 
 For example, invocation of your program should look like this:
-```> java Pow 6 2
+```
+> java Pow 6 2
 recursive: 36
-iterative: 36```
+iterative: 36
+```
 or with Ant
 
-```> ant run1 -Dargs="6 2"
+```
+> ant run1 -Dargs="6 2"
 recursive: 36
-iterative: 36```
+iterative: 36
+```
 (lines starting with > are what you write to the shell, other lines are expected output).
 
 Your main(String[] args) method will read the input numbers from the args array and convert it from a string to an integer. It will then call the two methods:
